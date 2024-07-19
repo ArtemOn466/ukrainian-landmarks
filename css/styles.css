@@ -1,0 +1,156 @@
+html {
+  overflow-x: hidden;
+}
+
+.navbar-container {
+  gap: 250px;
+}
+
+svg {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar {
+  background-color: black;
+  padding: 30px;
+}
+
+#hero-section {
+  background-image: url("../images/avatar_51_max.jpg");
+  height: 1000px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+
+#hero-section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%);
+}
+
+#hero-section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 50%);
+}
+
+#sights {
+  background-color: #000;
+  height: 1000px;
+}
+
+#hero-section h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 105px;
+  color: rgb(201 239 201);
+  top: 350px;
+  position: relative;
+}
+
+#nav {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 2rem;
+}
+
+#sights {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+}
+
+.sights-container {
+  justify-content: space-around;
+}
+
+.sight:last-child {
+  background-image: url("../images/Mount-Hoverla.jpg");
+  height: 500px;
+  width: 300px;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sight:nth-child(2) {
+  background-image: url("../images/1000_F_415341381_9pdCj5TV8xpjo71foy1LMDBwNkm6vTZu.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 300px;
+  color: #b8eeff;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sight:first-child {
+  background-image: url("../images/Virmenska-Lviv.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 300px;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.see-more {
+  color: rgb(17, 0, 255);
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+}
+
+.see-more svg {
+  width: 15px;
+  height: 15px;
+  color: rgb(17, 0, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+#footer {
+  height: 1000px;
+}
